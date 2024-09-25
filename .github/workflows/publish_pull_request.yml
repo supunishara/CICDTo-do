@@ -24,7 +24,7 @@ jobs:
           eas-version: latest
           token: ${{ secrets.EXPO_TOKEN }}
       - name: Install Dependencies
-        run: yarn install
+        run: npm install
       - name: Publish to Expo Go
         run: NODE_ENV=dev expo publish --non-interactive --release-channel pr-${{ github.event.number }}
       - name: Add Expo Link to PR
