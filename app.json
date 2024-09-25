@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "CICDTo-do",
-    "slug": "CICDTo-do",
+    "slug": "cicdto-do",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -31,6 +31,12 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2dd154fb-17cb-44aa-912e-9cae53b8f95e"
+      }
+    },
+    "owner": "supun.ishara3"
   }
 }
