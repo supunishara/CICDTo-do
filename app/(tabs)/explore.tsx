@@ -15,7 +15,7 @@ export default function TabTwoScreen() {
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">CI/CD NEW PAGE</ThemedText>
       </ThemedView>
-      <ThemedText>THIS IS For the seventh PUll Request</ThemedText>
+      <ThemedText>THIS IS For the eight PUll Request</ThemedText>
     </ParallaxScrollView>
   );
 }
